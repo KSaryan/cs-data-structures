@@ -1,0 +1,32 @@
+Runtime
+1. The number of cookies in the box
+2. O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+
+
+Stacks and Queues:
+1.  1. a stack
+    2. a queue
+    3. I feel like neither makes sense here. Because the order of operations is determined by other factors than the order of items. But you do move left to write, so a queue makes more sense.
+2. processing orders for a product, responding to emails
+3. demolishing a building, putting away a pile of folded clothes
+
+
+Linked Lists:
+1. The nodes are the boxes containing "apple", "berry", "cherry". The strings themselves are the data. The head is the node containing "apple". The tail would be the node containing "cherry", but it doesn't look like they are keeping track of the tail.
+2. In a singly linked list, each node has an attribute telling you which node is next. In a doubly-linked list, each node also has an attribute telling you what the previous node is. 
+3. If we don't keep track of the tail, we would have to traverse the whole list looking for the tail(the node whose next attribute points to none) before we can add the next node. If we keep track of it, we can go straight to the tail.
+
+Trees
+1. Food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos.
+2. Food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka masala, Italian, pizza, Sicilian, NewYork-style, Chicago-style. 
+3. A binary search tree follows a specific rule about its ordering that makes it easier and faster to search. Also, in a binary search tree, each parent only has two children. 
+
+
+
+
+ 
